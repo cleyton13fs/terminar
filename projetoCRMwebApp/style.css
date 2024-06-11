@@ -1,0 +1,63 @@
+body {
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #131318;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notch{
+    width: 375px;
+    height: 41px;
+}
+
+.capa{
+    width: 375px;
+    height: 200px;
+}
+
+h1{
+    font-size: 34px;
+    font-family: "inter", sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+#givy {
+    font-size: 18px;
+    font-family: "inter", sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+#text{
+    font-size: 14px;
+    font-family: "inter", sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+input{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+input::placeholder{
+    font-size: 14px;
+    font-family: "inter", sans-serif;
+    color: #A1A1A3;
+}
+
+#numeroEmail{
+    padding-left: 30px; /* Ajuste este valor de acordo com a largura da sua imagem */
+    background-image: url(img/telefone.png);
+    background-size: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+    background-repeat: no-repeat;
+    background-position: right center;
+}
